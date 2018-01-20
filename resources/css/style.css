@@ -4,8 +4,8 @@ body {
   font-size: 18px;
 }
 
-container {
-  display: flex;
+.container {
+  display flex;
   max-width: 960px;
 }
 
@@ -26,4 +26,45 @@ header img {
 
 header h3 {
   margin: 0.66rem 0;
+}
+
+.main-banner {
+  background-image: url("../../resources/images/sam banner moto.jpeg");
+  height: 25rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner {
+  height: 10rem;
+  width: 25rem;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.banner h3 {
+  font-size: 1rem;
+  padding-top: 2rem;
+  margin-left: 3rem;
+}
+
+.banner h1 {
+  font-size: 2rem;
+  margin: 0.25rem 0 0 3rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: firebrick;
+  height: 2.5rem;
+}
+
+span a {
+   text-decoration: none;
+   font-size: 1rem;
+   color: white;
 }
